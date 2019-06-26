@@ -8,11 +8,11 @@ var employeeController=function(req,resp){
 	
 	{id:102,name:"komal",job:"developer"},
 	{id:103,name:"anshi",job:"developer"}
-	
+	{id:104,name:"anhi",job:"developer"}
 	];
 	resp.send(employee);
 };
-app.get('/empoyee',employeeController);
+app.get('/employee',employeeController);
 var server=app.listen(8087,function()
 {
 	console.log("listen at port no:8087")
